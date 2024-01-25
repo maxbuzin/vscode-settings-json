@@ -29,7 +29,6 @@
   "workbench.activityBar.location": "hidden",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.layoutControl.enabled": false,
-  "workbench.editor.editorActionsLocation": "hidden",
   "workbench.editor.showTabs": "none",
 
   // Explorer
