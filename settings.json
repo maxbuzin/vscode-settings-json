@@ -1,8 +1,7 @@
 {
   // Editor
   "editor.autoClosingQuotes": "always",
-  "editor.minimap.enabled": false,
-  "editor.fontSize": 18,
+  "editor.fontSize": 20,
   "editor.smoothScrolling": true,
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
@@ -16,20 +15,17 @@
   "editor.fontFamily": "JetBrains Mono",
   "editor.semanticHighlighting.enabled": false,
   "editor.quickSuggestions": {
-   "other": "on",
-   "comments": "off",
-   "strings": "off"
+    "other": "on",
+    "comments": "off",
+    "strings": "off"
   },
 
   // Workbench
   "workbench.sideBar.location": "right",
   "workbench.settings.applyToAllProfiles": ["tailwindCSS.emmetCompletions"],
-  "workbench.colorTheme": "Flat UI (+GUI)",
   "workbench.iconTheme": "vs-nomo-dark",
-  "workbench.activityBar.location": "hidden",
-  "workbench.startupEditor": "newUntitledFile",
+  "workbench.startupEditor": "none",
   "workbench.layoutControl.enabled": false,
-  "workbench.editor.showTabs": "none",
 
   // Explorer
   "explorer.compactFolders": false,
@@ -46,7 +42,7 @@
   "liveServer.settings.NoBrowser": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
   // Window
@@ -61,6 +57,31 @@
   },
   "files.exclude": {
     "**/.git": true,
-    "**/node_modules": true,
-},
+    "**/node_modules": true
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "indentRainbow.indicatorStyle": "light",
+  "tailwindCSS.lint.invalidApply": "ignore",
+  "tailwindCSS.validate": false,
+  "editor.defaultFormatter": "formulahendry.auto-close-tag",
+  "workbench.colorTheme": "Edge Dark",
+  "terminal.integrated.mouseWheelZoom": true,
+  "editor.mouseWheelZoom": true,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.resolveGlobalModules": true,
+  "prettier.semi": false,
+  "prettier.singleAttributePerLine": true,
+  "prettier.singleQuote": true,
+  "editor.minimap.enabled": false,
+  "prettier.bracketSameLine": true,
+  "prettier.proseWrap": "never",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true
 }
